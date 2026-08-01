@@ -1,4 +1,4 @@
-As explained in project description, this project automates the process of launching valorant thanks to python image search.
+As explained in project description, this project automates the process of launching valorant thanks to the python image search.
 
 you probably need to change 'oyna.png' with your own screenshot of play button to make it work
 
