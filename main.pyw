@@ -33,19 +33,15 @@ def durum_degistir():
     keyUp('f4')  
 
 try:
-    # os.chdir('D:/[A]Projects/launch valorant')
-    # os.startfile('C:/ProgramData/Microsoft/Windows/Start Menu/Programs/Riot Games/VALORANT.lnk')
-    # os.startfile('C:/Riot Games/Riot Client/RiotClientServices.exe') requires config parameters(--abcdx) and i didn't want to use subprocess.run() because it was unnecessary
-
-    durum_al()
+    #durum_al() ### if you want to disable "Enhance Pointer Precision" automatically while launching valorant, enable this
 
     os.startfile('VALORANT.lnk')
 
 
     print(f'ayar durumu: {fare_hizi}')
 
-    if int(fare_hizi) == 1:
-        durum_degistir()
+    #if int(fare_hizi) == 1:   the thing i mentioned above
+        #durum_degistir()
 
     while devam:
         button = imagesearch('oyna.png')
