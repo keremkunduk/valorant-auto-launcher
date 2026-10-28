@@ -19,7 +19,7 @@ def durum_al():
 def durum_degistir():
     press('win')
     # sl(0.001)
-    write('işaretçi hassasiyeti')
+    write('işaretçi hassasiyeti') # replace it with the meaning of 'Enhance Pointer Precision' in your language
     sl(0.1)
     press('enter')
     sl(0.5)
